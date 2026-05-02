@@ -20,17 +20,16 @@ VirusTotal API – Threat intelligence and IP analysis
 📊 Dashboard Features
 
 The Kibana dashboard includes multiple visualizations to support security analysis:
-
 🔹 Event Monitoring
 Total event count and trends over time
 Event severity levels (high to low)
 🔹 Threat Detection
 Attack types:
-DDoS
-Malware
-Ransomware
-Phishing
-SQL Injection
+DDoS,
+Malware,
+Ransomware,
+Phishing,
+SQL Injection,
 Brute-force
 🔹 Network Analysis
 Protocol usage (HTTP, HTTPS, DNS, FTP, SMTP, etc.)
@@ -42,7 +41,6 @@ City-based traffic analysis
 Detection of abnormal geographic patterns
 
 🔍 Investigation Methodology
-
 The project follows a structured investigation approach:
 
 Log Analysis
@@ -51,7 +49,7 @@ Detect anomalies in protocol usage and event frequency
 Threat Validation
 Cross-check suspicious IPs using VirusTotal
 Verify whether alerts are legitimate or false
-Alert Classification
+Alert Classification:
 True Positive → Real threat detected
 False Positive → Incorrect alert
 True Negative → Correctly identified normal activity
